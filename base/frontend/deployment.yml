@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: pskclub/t6601-frontend:latest
+          image: pskclub/t6601-api:latest
           imagePullPolicy: Always
           livenessProbe:
             tcpSocket:
